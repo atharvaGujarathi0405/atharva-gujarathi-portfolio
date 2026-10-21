@@ -7,6 +7,7 @@ import leetcode from "../assets/images/leetcode.png";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import TIlttext from "../components/TIlttext";
+import HeroPlanet from "../components/HeroPlanet";
 
 const Page1 = () => {
   const titlRef = useRef(null);
@@ -63,13 +64,13 @@ const Page1 = () => {
       <div
         id="page1"
         className="relative w-full h-full rounded-[20px] sm:rounded-[40px] lg:rounded-[50px] 
-                   overflow-hidden bg-cover shadow-xl shadow-gray-500 bg-black"
+                   overflow-hidden bg-cover space-card"
       >
-        {}
+        <HeroPlanet />
         <img
           src={hero}
           alt="Hero"
-          className="h-full w-full object-contain sm:p-4 md:p-6"
+          className="relative h-full w-full object-contain sm:p-4 md:p-6 [mask-image:radial-gradient(ellipse_20%_62%_at_70%_52%,#000_50%,transparent_100%)]"
         />
         {}
         <div className="absolute z-50 top-4 left-4 sm:top-8 sm:left-10 flex items-center space-x-3">

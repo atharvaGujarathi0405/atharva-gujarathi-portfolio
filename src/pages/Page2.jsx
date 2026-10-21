@@ -50,7 +50,7 @@ const Page2 = () => {
   });
 
   return (
-    <div id="section2" className="page2 bg-white text-center p-3 text-black ">
+    <div id="section2" className="page2 bg-white text-center p-3 text-white ">
       <h3 className="text-gray-500 font-[anzo2] mt-8">
         Let's Grow Together | Atharva Gujarathi | Designed and Developed
       </h3>
@@ -88,7 +88,7 @@ const Page2 = () => {
       </div>
 
       {}
-      <div id="logos" className="overflow-hidden fill-gray-500 w-full mt-12">
+      <div id="logos" className="overflow-hidden fill-gray-500 w-full mt-12 py-4 rounded-full bg-white/90">
         <div ref={marqueeRef} className="flex gap-12 w-max">
           {}
           {logos.map((logo, index) => (
@@ -105,7 +105,7 @@ const Page2 = () => {
           ))}
         </div>
       </div>
-      <div className="h-1 w-1/2 relative left-1/2 -translate-x-1/2 mt-8 mb-8 bg-black"></div>
+      <div className="h-1 w-1/2 relative left-1/2 -translate-x-1/2 mt-8 mb-8 bg-cyan-300/60"></div>
     </div>
   );
 };

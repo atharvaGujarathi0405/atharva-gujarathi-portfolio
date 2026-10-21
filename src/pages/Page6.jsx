@@ -9,7 +9,7 @@ const Page6 = () => {
     >
       <div
         className="relative w-full h-full rounded-[20px] sm:rounded-[40px] lg:rounded-[50px] 
-                   overflow-hidden shadow-xl shadow-gray-500 flex flex-col 
+                   overflow-hidden space-card flex flex-col 
                    justify-center items-center text-center px-6"
       >
         {}

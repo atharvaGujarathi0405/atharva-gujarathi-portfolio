@@ -1,10 +1,11 @@
 import React from "react";
 import MoonBack from "../assets/videos/MoonBack.mp4";
+import { bio } from "../data/content";
 import CV from "../../public/Atharva_Gujarathi_TY_Resume.pdf";
 
 const Page4 = () => {
   return (
-    <div id="page3" className="h-screen relative p-6 bg-white">
+    <div id="page3" className="h-screen relative p-6">
       <div className="h-full w-full bg-black rounded-[40px] overflow-hidden">
         <video
           autoPlay
@@ -41,17 +42,7 @@ const Page4 = () => {
 
         {}
         <h1 className="absolute bottom-20 left-20 right-20 text-white z-50 font-[anzo2] text-lg">
-          I’m a Computer Engineering student (3rd year) from VIIT, Pune with a
-          strong interest in full-stack development, machine learning and
-          innovative tech solutions. I enjoy building projects that combine
-          creativity with problem-solving—ranging from AI-powered apps to
-          interactive web platforms. I’ve participated in hackathons and
-          technical clubs, where I learned the value of teamwork, quick
-          learning, and turning ideas into real products. Currently, I’m
-          exploring frontend frameworks like React & TailwindCSS, backend
-          development, and applying machine learning models to real-world
-          challenges. My long-term goal is to create impactful technology that
-          improves people’s lives.
+          {bio}
         </h1>
       </div>
     </div>
