@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: anzo1;
+  src: url(./assets/fonts/font1.woff2);
+}
+@font-face {
+  font-family: anzo2;
+  src: url(./assets/fonts/font2.woff2);
+}
+@font-face {
+  font-family: anzo3;
+  src: url(./assets/fonts/font3.woff2);
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  cursor:url(./assets/images/cursor2.png), auto;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+#page1 {
+  position: relative;
+  perspective: 1000px;
+}
+#section2 {
+  position: relative;
+  perspective: 1300px;
+}
+#tilt {
+  width: fit-content;
+}
+
+/* #w1{
+  transform-origin: 80% 60%;
+} */
+
+
+
+#menubtn {
+  transition: transform 0.3s ease;
+}
+
+#menubtn:hover {
+  transform: rotate(90deg);
+}
+
+.perspective {
+  perspective: 1000px;
+}
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+.backface-hidden {
+  backface-visibility: hidden;
+}
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+#logos{
+  filter: grayscale(100%);
+}
